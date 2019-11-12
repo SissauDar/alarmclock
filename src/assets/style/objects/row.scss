@@ -1,0 +1,11 @@
+.o-row {
+  padding: 0 2rem;
+
+  // Hoort hier normaal niet die ml en mr auto.
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.o-row--message {
+  padding: 0 10rem;
+}
