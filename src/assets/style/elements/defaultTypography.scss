@@ -84,20 +84,20 @@ hr {
 
 a {
   transition: all rgb(214, 18, 18);
-  color: #c8c8c8;
-  outline-color: #c8c8c8;
+  color: #ffffff;
+  outline-color: #ffffff;
   outline-width: medium;
   outline-offset: 2px;
 }
 
 a:active,
 a:visited {
-  color: #c8c8c8;
+  color: #ffffff;
 }
 
 a:focus,
 a:hover {
-  color: #c8c8c8;
+  color: #ffffff;
 }
 
 input,
@@ -110,7 +110,7 @@ select {
 }
 
 input::placeholder {
-  color: white;
+  color: var(--placeholderColor, black);
 }
 
 /*
